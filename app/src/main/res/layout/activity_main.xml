@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRecent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최근 들은 곡" />
+
+    <Button
+        android:id="@+id/btnMostPlayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가장 많이 들은 곡" />
+
+    <Button
+        android:id="@+id/btnRecentlyAdded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최근 추가한 곡" />
+
+    <Button
+        android:id="@+id/btnLiked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아요 한 곡" />
+
+</LinearLayout>
